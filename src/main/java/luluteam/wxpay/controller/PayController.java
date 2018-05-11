@@ -58,6 +58,7 @@ public class PayController {
                 map.put("prepayId", prepayId);
                 map.put("nonceStr", randomNonceStr);
             }
+            System.out.println("123");
         }
 
         try {
